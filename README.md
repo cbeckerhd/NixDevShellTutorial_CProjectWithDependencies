@@ -7,4 +7,5 @@ This repository is part of a [short tutorial](https://github.com/cbeckerhd/NixDe
 ```
 nix develop .nix
 gcc -o swap swap.c -lblas
+./swap
 ```
