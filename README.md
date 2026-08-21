@@ -5,5 +5,6 @@ This repository is part of a [short tutorial](https://github.com/cbeckerhd/NixDe
 `swap.c` contains a short C program that multiplies two matrices and thereby swaps two columns. It depends on [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS).
 
 ```
+nix develop .nix
 gcc -o swap swap.c -lblas
 ```
